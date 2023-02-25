@@ -5,7 +5,6 @@ from pillow_heif import register_heif_opener
 
 list_of_files = os.listdir("photo/")
 dir = "photo/"
-git add README.md
 
 for name_of_file in list_of_files:
     path = dir + name_of_file
